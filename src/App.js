@@ -1,11 +1,13 @@
 import './App.css';
-import Main from './pages/main/index.jsx'
+import AppHeader from './pages/components/header/index';
+import AppTabs from './pages/components/app-tabs/index';
 
 function App() {
   return (
-    <div >
-      <Main />
-    </div>
+    <>
+      <AppHeader />
+      <AppTabs />
+    </>
 
   );
 }
