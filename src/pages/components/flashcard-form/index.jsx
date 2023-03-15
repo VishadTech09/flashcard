@@ -1,20 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React  from "react";
 
 class FlashcardForm extends React.Component {
 
-    constructor(props) {
-        super(props)
-        this.state = {
-            term: "",
-            description: ""
-        };
-        this.updateFlashcardFormState = this.updateFlashcardFormState().bind(this);
-    }
-
     updateFlashcardFormState = (e) => {
         console.log("State to be update : ", e);
-        this.setState(data);
+        this.setState(e);
     }
 
     render() {

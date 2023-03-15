@@ -4,10 +4,10 @@ import AppTabs from './pages/components/app-tabs/index';
 
 function App() {
   return (
-    <>
+    <div>
       <AppHeader />
       <AppTabs />
-    </>
+    </div>
 
   );
 }
