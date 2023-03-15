@@ -1,7 +1,11 @@
 import CardGroup from "./components/card-group/view";
 import CreateFlashcardGroup from "./components/card-group/create";
+import {
+    CardgroupData
+} from "../../service/data";
 const Dashboard = (props) => {
 
+    const [data, setState] = useState([]);
 
     const group = {
         name: "Group 1",
