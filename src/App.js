@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <AppHeader />
-      <AppTabs />
+      <AppTabs title="Create Flashcard Group" />
     </div>
 
   );

@@ -4,6 +4,9 @@ import React  from "react";
 
 class FlashcardForm extends React.Component {
 
+    constructor(props) {
+        super(props)
+    }
     updateFlashcardFormState = (e) => {
         console.log("State to be update : ", e);
         this.setState(e);

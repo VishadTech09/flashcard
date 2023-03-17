@@ -10,7 +10,7 @@ class Main extends React.Component {
             <>
                 <Header />
                 {
-                    dashboard ? <Dashboard /> : <FlashCardGroups />
+                    dashboard ? <Dashboard/> : <FlashCardGroups />
                 }
 
 

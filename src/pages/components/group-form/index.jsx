@@ -5,7 +5,9 @@ import React  from "react";
 
 class FlashcardGroupForm extends React.Component {
  
-  
+    constructor(props) {
+        super(props)
+    }
 
     render() {
         return <div className='container-md'>

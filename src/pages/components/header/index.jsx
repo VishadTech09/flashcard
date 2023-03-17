@@ -4,6 +4,9 @@ import AppLogo from '../../../assets/images/logo.png';
 import React from 'react';
 
 class AppHeader extends React.Component {
+    constructor(props) {
+        super(props)
+    }
     render() {
         return <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
